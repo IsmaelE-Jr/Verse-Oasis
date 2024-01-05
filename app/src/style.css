@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  height: 100hv;
+  align-items: center;
+} */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../photos/Praise background.jpg');
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+  height: 50vh;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#img {
+  width: 200px;
+  height: 200px; 
+  margin-top: -250px;
+  object-fit: cover;
+}
+
+.quote-box {
+  margin: 3rem;
+  font-family: 'Playfair Display', serif;
+  background: #fff;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px 0px rgba(0, 0, 0,0.15);
+}
+
+.quote-box h2 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.quote-box h2::after {
+  content: '';
+  width: 75px;
+  height: 3px;
+  border-radius: 3px;
+  background: rgb(23, 124, 229);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.quote-box blockquote {
+  font-size: 26px;
+  min-height: 110px;
+}
+
+.quote-box blockquote::before, .quote-box blockquote::after {
+  content: '"';
+}
+
+.quote-box span {
+  display: block;
+  margin-top: 10px;
+  float: right;
+  position: relative;
+}
+
+.quote-box span::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+  background: rgb(23, 124, 229);
+  position: absolute;
+  top: 50%;
+  left: -30px;
+}
+
+.quote-box div {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box button {
+  background: rgb(23, 123, 229);
+  color: #fff;
+  border-radius: 25px;
+  border: 1px solid rgb(23,124,229);
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label{
+  margin-right: 10px;
+  position: relative;
+  align-items: center;
+  color: #4189e0;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 0.8rem;
+  height: 60px;
+  border: 3px solid #4189e0;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+label:before {
+  content: '';
+  height: 2rem;
+  width: 2rem;
+  border: 3px solid #4189e0;
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked + label:before {
+  height: 1rem;
+  width: 1rem;
+  border: 0.65rem solid #ffffff;
+  background-color: #4189e0;
+}
+
+input[type="radio"]:checked + label {
+  background-color: #4189e0;
+  color: #ffffff;
+}
+
+.card {
+  position: relative;
+  margin: 1rem;
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid black;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+}
+
+.cardBody {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+
+
+footer {
+  text-align: center;
+  margin-left: auto;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+}
