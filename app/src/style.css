@@ -27,21 +27,20 @@ html, body {
   overflow-x: hidden;
 }
 
-
 .box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url('../photos/Praise background.jpg');
-  background-size: cover; /* Ensures the background image covers the entire container */
-  background-position: center; /* Centers the background image */
+  background-size: cover; 
+  background-position: center; 
   height: 100vh;
 }
 
 .h1 {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 h2 {
@@ -54,6 +53,7 @@ h2 {
   margin-top: -250px;
   object-fit: cover;
 }
+
 
 .quote-box {
   margin: 3rem;
@@ -131,7 +131,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer
+  cursor: pointer;
+}
+
+span {
+  margin: 2rem;
 }
 
 input[type="radio"] {
