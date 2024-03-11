@@ -2,6 +2,8 @@
 
 Welcome to **Verse Oasis**, a comforting webpage dedicated to providing encouragement during challenging times. This project offers a curated selection of verses categorized by themes, allowing users to find solace within the word of God.
 
+![demo](./app/photos/Verse-Oasis%20Demo.mp4)
+
 ## Features
 
 - **Theme-Based Verses:** Explore carefully chosen verses that align with specific themes, providing motivation and comfort.
