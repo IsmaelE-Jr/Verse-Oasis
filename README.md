@@ -13,11 +13,11 @@ Welcome to **Verse Oasis**, a comforting webpage dedicated to providing encourag
 ## How to Use
 
 1. **Navigate Themes:** Click on the listed themes to discover verses tailored to your current emotions or situations.
-2. **Cards** Contains information on the following themes:
+2. **Cards** Contains information on the following:
 
-- **Jesus:**
-- **Mercy:**
-- **Grace:**
+- **Jesus**
+- **Mercy**
+- **Grace**
 
 Hover on the respective card to learn more.
 
